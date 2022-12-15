@@ -1,0 +1,151 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+.margenes-internos{
+    padding: 0px 0px;
+}
+.contenedor-padre{
+    display: flex;
+    flex-flow: column nowrap;
+}
+    .cabecera{
+        background: url(../images/fujimori.jpg);
+        background-position: center;
+        background-size: auto;
+        background-attachment: contain;
+        background-repeat: no-repeat;
+        margin-bottom: 5px;
+        display: flex;
+        flex-flow: column nowrap;
+    }
+        .menu{
+            background: rgba(0,0,0,0.3);
+            display: flex;
+            height: 100%;
+            flex-flow: row nowrap;
+            align-items: center;
+        }
+            .logo{
+                flex: 1 1 auto;
+            }
+                .logo a{
+                    color: azure;
+                    font-size: 30px;                    
+                }
+                .logo a:hover{
+                    color: #eccd2e;
+                } 
+            .nav{
+                flex: 5 1 auto;
+            }
+                .nav a{
+                    color: aliceblue;
+                    font-size: 13px;
+                    text-transform: uppercase;
+                    padding: 0 10px;
+                    letter-spacing: 2px;
+                }
+                .nav a:hover{
+                    color: rgba(255, 255, 255, 0.756);
+                    
+                }
+            .rsocial{
+                flex: 1 1 auto;
+            }
+        .texto-prin{
+            height: 500px;
+            display: flex; 
+            align-items: center;          
+        }
+            h1{
+                font-size: 21px;
+                background: rgba(167, 123, 185, 0.5);
+                color: rgb(0, 0, 0);
+                font-weight: 800;
+                text-align: center;
+                line-height: 2;
+                font-size: 28px;
+            }
+    .seccion{
+        background: rgba(130, 129, 129, 0.645);
+        display: flex;
+        flex-flow: row nowrap;
+    }
+        .articulos{
+            /* background: #4e4e6a; */
+            flex: 1 1 auto;
+            font-size: 13px;
+            letter-spacing: 1px;
+            display: flex;
+            flex-flow: row wrap;
+        }
+        .articulos a{
+            color: rgb(64, 48, 205);
+            font-size: 13px;
+            padding: 10px;
+            background-color: rgba(229, 229, 254, 0.5);
+            margin: 10px 0;
+            display: inline-block;
+        }
+            .articulos a:hover{
+                background:rgba(255, 255, 255, 0.756)
+            }
+        h3{
+            color: antiquewhite;
+            padding: 10px 0;
+        }
+        h2{
+            font-size: 25px;
+            text-transform: uppercase;
+            color: rgb(64, 48, 205);
+        }
+            .son-articulo{
+                background: rgba(255, 255, 255, 0.756);
+                flex: 1 1 20%;
+                padding: 5px 5px;
+            }
+                .son-articulo img{
+                    width: 100%;
+                    height: 500px;
+                }
+        .aside{
+            background: #098315cb;
+            flex: 1 1 auto;
+        }
+            .aside img{
+                width: 100%;
+                height: auto;
+            }
+            h4{
+                background: #000;
+                text-transform: uppercase;
+                color: azure;
+                text-align: center;
+
+            }
+            .publicidad{
+                background: #ffea85;
+            }
+                .publicidad img{
+                    width: 100%;
+                }
+    .pie-pag{
+        background: #fff788;
+        display: flex;
+        justify-content: center;
+    }
+        .pie{
+            background: #cdffd3;
+            width: 400px;
+        }
+        .pie a{
+            color: rgb(255, 0, 0);
+            font-size: 16px;
+            text-align: center;
+        }

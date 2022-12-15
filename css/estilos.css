@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.contenedor-padre{
+}
+    .cabecera{
+        display: flex;
+        flex-flow: row nowrap;
+        background: rgb(255, 119, 0.3);
+        padding: 20px;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .cabecera .logo{
+        margin-right: auto;
+    }
+    .cabecera .logo img{
+        width: 250px;
+        height: auto;
+    }
+    .cabecera .nav a{
+        padding: 0px 50px;
+        text-decoration: none;
+        color: aliceblue;   
+        font-size: 30px;
+        text-transform: uppercase;        
+        letter-spacing: 5px;
+        cursor: pointer;
+    }
+    .nav a:hover{
+        transform: scale(1,1);      /* aumenta del tamaño del link */
+        color: rgb(0, 0, 0.3);
+    }
+
+    .section{
+        display: flex;
+        flex-flow: row nowrap;
+        font-family: 'Century Gothic';
+    }
+        .aside{
+            display: flex;
+            flex-flow: column nowrap;
+            background: rgb(241, 241, 241);
+            border: 10px black;
+        }
+        .proforma{
+            display: flex;
+            flex-flow: row nowrap;
+            flex: 1 1 50%;
+        }
+        .prefor{
+            padding-left: 120px;  
+        }
+        .proforma li{
+            padding: 8px 0px;
+            border-radius:5px;
+            padding-top: 1.5px;         
+            list-style: none;
+        }
+        .boss{
+            background: rgba(255, 77, 0, 0.3);    
+        }
+        .negocio{
+            align-items: center;
+            padding: 0px 0px;
+            background: rgba(255, 77, 0, 0.3);    
+        }
+        .articulos{
+            display: flex;
+            flex-flow: column nowrap;
+            flex: 1 1 auto;
+        }
+        h2{
+            font-size: 20px;
+            text-transform: uppercase;
+            color: rgb(64, 48, 205);
+            text-align: center;
+            padding-top: 40px;
+        }
+        p{
+            font-size: 15px;
+            text-transform: uppercase;
+            color: rgb(85, 0, 106);
+            padding: 10px 15px;
+            justify-content: center;
+        }
+        .imagen img{
+            width: 600px;
+            height: auto;
+            padding: 25px 25px;
+
+        }
+            .son-articulos1{
+                display: flex;
+                flex-flow: row nowrap;
+                flex: 1 1 auto;
+                background: rgb(4, 255, 0.3);
+            }
+            .son-articulos2{
+                display: flex;
+                flex-flow: row nowrap;
+                flex: 1 1 auto;
+                background: rgba(0, 224, 253, 0.3);
+                }
+            .son-articulos3{
+                display: flex;
+                flex-flow: row nowrap;
+                flex: 1 1 auto;
+                background: rgb(247, 243, 0.3);
+                }
+            
+    .piedepagina{
+        display: flex;
+        flex-flow: row nowrap;
+        background: rgb(255, 119, 0.3);
+        border: 10px black;
+        color: aliceblue;  
+        flex: 1 1 auto;
+        padding: 25px 25px
+    }
